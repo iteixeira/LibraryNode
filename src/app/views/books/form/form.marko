@@ -1,0 +1,28 @@
+<html>
+
+<body>
+    <h1>Cadastro de livros</h1>
+
+    <form action="/books" method="POST">
+        <input type="hidden" id="id" name="id" />
+
+        <div>
+            <label for="title">Títulos:</label>
+            <input type="text" id="title" name="title">
+        </div>
+
+        <div>
+            <label for="price">Preço:</label>
+            <input type="text" id="price" name="price" placeholder="150.25">
+        </div>
+
+        <div>
+            <label for="description">Descrição:</label>
+            <input type="text" id="description" name="description">
+        </div>
+
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+
+</html>
